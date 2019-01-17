@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+  <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+</head>
+<body>
+        <ons-navigator id="appNavigator" swipeable swipe-target-width="80px">
+                <ons-page>
+                  <ons-splitter id="appSplitter">
+                    <ons-splitter-content page="tabbar.html"></ons-splitter-content>
+                  </ons-splitter>
+                </ons-page>
+              </ons-navigator>
+        <template id="tabbar.html">
+                <ons-page id="tabbar-page">
+                        <ons-page id="tabbar-page">
+                                <ons-toolbar>
+                                  <div class="center">Restaurant</div>
+                                  <div class="right">
+                                    <ons-toolbar-button onclick="fn.toggleMenu()">
+                                            เข้าสู่ระบบ
+                                    </ons-toolbar-button>
+                                    <ons-toolbar-button onclick="fn.toggleMenu()">
+                                            สมัครสมาชิก
+                                    </ons-toolbar-button>
+                                        
+                                  </div>
+                                </ons-toolbar>
+                          
+                        
+                    
+                  </ons-toolbar>
+                </ons-page>
+              </template>
+</body>
+</html>
